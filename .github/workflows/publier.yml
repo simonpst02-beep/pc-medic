@@ -1,0 +1,31 @@
+# Publie automatiquement une nouvelle version de PC Medic (release GitHub)
+# dès que le fichier publication/version.txt change sur la branche main.
+name: Publier une version
+
+on:
+  push:
+    branches: [main]
+    paths: ['publication/version.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Créer la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(tr -d ' \r\n' < publication/version.txt)
+          if gh release view "v$V" >/dev/null 2>&1; then
+            echo "La version v$V est déjà publiée."
+            exit 0
+          fi
+          gh release create "v$V" publication/PC_Medic.exe \
+            --title "PC Medic $V" \
+            --notes-file publication/notes.md \
+            --latest
