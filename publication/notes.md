@@ -1,5 +1,3 @@
-Mises à jour simplifiées
+Barre latérale épurée
 
-- Les mises à jour sont configurées automatiquement : plus rien à saisir
-- Bouton « Vérifier les mises à jour » dans les Paramètres
-- Vérification automatique à chaque démarrage
+- Le bloc « Administrateur » en bas de la barre latérale est retiré quand PC Medic est en mode administrateur
