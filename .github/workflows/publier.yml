@@ -25,7 +25,11 @@ jobs:
             echo "La version v$V est déjà publiée."
             exit 0
           fi
-          gh release create "v$V" publication/PC_Medic.exe \
+          FILES="publication/PC_Medic.exe"
+          for f in publication/PC_Medic.exe.sig publication/PC_Medic_Setup.exe; do
+            [ -f "$f" ] && FILES="$FILES $f"
+          done
+          gh release create "v$V" $FILES \
             --title "PC Medic $V" \
             --notes-file publication/notes.md \
             --latest

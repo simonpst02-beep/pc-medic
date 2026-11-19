@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "date": "19/11/2026",
+  "pup": ["WebDiscover", "Wave ?Browser", "OneLaunch", "Shift ?Browser", "PC ?App ?Store", "ByteFence", "Segurazo", "SAntivirus", "Reimage ?Repair", "Restoro", "Driver ?Support", "Advanced ?SystemCare", "Slimware", "PC ?Accelerate"],
+  "folders": ["WaveBrowser", "OneLaunch", "WebDiscover", "PCAppStore", "ByteFence", "Segurazo", "Restoro"],
+  "trustedHosts": [],
+  "hostsBad": []
+}

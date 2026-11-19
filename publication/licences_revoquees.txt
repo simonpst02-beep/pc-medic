@@ -1,0 +1,3 @@
+# Licences PC Medic annulées : un numéro de série par ligne.
+# Les lignes qui commencent par # sont ignorées.
+# PC Medic relit ce fichier toutes les 12 heures.

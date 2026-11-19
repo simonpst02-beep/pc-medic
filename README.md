@@ -6,9 +6,11 @@ PC Medic vérifie la santé de votre ordinateur, libère de l'espace, gère vos 
 
 ## Télécharger
 
-👉 **[Télécharger la dernière version](https://github.com/simonpst02-beep/pc-medic/releases/latest)** (fichier `PC_Medic.exe`)
+👉 **[Installer PC Medic](https://github.com/simonpst02-beep/pc-medic/releases/latest/download/PC_Medic_Setup.exe)** (`PC_Medic_Setup.exe`, recommandé)
 
-Compatible Windows 10 et Windows 11 (64 bits). Aucune installation requise : lancez simplement le fichier. Vous pouvez ensuite l'installer dans le menu Démarrer depuis *Paramètres › Installation*.
+👉 [Version portable sans installation](https://github.com/simonpst02-beep/pc-medic/releases/latest/download/PC_Medic.exe) (`PC_Medic.exe`)
+
+Compatible Windows 10 et Windows 11 (64 bits).
 
 > Au premier lancement, Windows peut afficher « Windows a protégé votre ordinateur » : cliquez sur *Informations complémentaires*, puis *Exécuter quand même*.
 
@@ -28,4 +30,12 @@ Compatible Windows 10 et Windows 11 (64 bits). Aucune installation requise : lan
 
 ## Mises à jour
 
-PC Medic se met à jour tout seul : dans *Paramètres › Mises à jour du logiciel*, indiquez `simonpst02-beep/pc-medic`.
+PC Medic vérifie lui-même s'il existe une nouvelle version (*Paramètres › Mises à jour du logiciel*). Chaque mise à jour est signée par l'éditeur : un fichier modifié ou non signé est refusé.
+
+## Fausse alerte antivirus ?
+
+PC Medic nettoie, répare et neutralise des menaces, ce qui ressemble parfois au comportement d'un logiciel malveillant pour un antivirus. Si votre antivirus bloque PC Medic :
+
+1. Téléchargez PC Medic uniquement depuis cette page.
+2. Signalez la fausse alerte à Microsoft : [soumettre un fichier](https://www.microsoft.com/en-us/wdsi/filesubmission) (choisissez *Software developer* ou *Home customer*, puis *Incorrectly detected as malware*).
+3. Pour un autre antivirus, utilisez son formulaire de signalement de faux positifs.
